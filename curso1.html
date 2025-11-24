@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Invex | Curso 1 - Investimento Descomplicado</title>
+  <link rel="stylesheet" href="/site_investimentos-main/css/cursos-style.css">
+  <link rel="stylesheet" href="/site_investimentos-main/css/header.css">
+  <link rel="stylesheet" href="/site_investimentos-main/css/home.css">
+  <link rel="stylesheet" href="/site_investimentos-main/css/responsive.css">
+  <link rel="shortcut icon" href="/site_investimentos-main/img/finance-custom.png" type="image/x-icon">
+</head>
+
+<body onload="carregarProgresso(1)">
+
+  <!--  CABEÇALHO  -->
+  <header>
+    <!-- Navegação Mobile -->
+    <nav>
+      <div id="menuBotao" class="menu-botao">☰</div>
+      <nav id="menuLateral" class="menu-lateral">
+        <a href="/site_investimentos-main/index.html">Inicio</a></li>
+        <a href="/site_investimentos-main/calculadora.html">Calculadora</a>
+        <a href="/site_investimentos-main/investimentos.html">Investimentos</a>
+        <a href="/site_investimentos-main/cursos.html">Cursos</a>
+        <a href="/site_investimentos-main/index.html#Contatos">Fale com a Invex</a>
+
+      </nav>
+
+      <nav class="lista-nav">
+        <ul class="lista-menu-principal">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="investimentos.html">Investimentos</a></li>
+          <li><a href="/site_investimentos-main/calculadora.html">Calculadora</a></li>
+          <li><a href="cursos.html">Cursos</a></li>
+          <li><a href="/site_investimentos-main/index.html#Contatos">Fale com a Invex</a></li>
+
+        </ul>
+        <div class="div-pai-logo">
+          <div class="img-logo">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <title>finance</title>
+              <path
+                d="M6,16.5L3,19.44V11H6M11,14.66L9.43,13.32L8,14.64V7H11M16,13L13,16V3H16M18.81,12.81L17,11H22V16L20.21,14.21L13,21.36L9.53,18.34L5.75,22H3L9.47,15.66L13,18.64" />
+            </svg>
+          </div>
+          <div class="logo">
+            <h2>InveX</h2>
+          </div>
+        </div>
+      </nav>
+
+  </header>
+  <!-- FIM CABEÇALHO -->
+
+  <!-- Hero do curso -->
+  <header class="curso-header">
+    <div class="curso-banner">
+      <img src="/site_investimentos-main/img/Investimento-descomplicado.jpg"
+        alt="Banner do Curso Investimento Descomplicado">
+      <div class="overlay"></div>
+
+      <div class="curso-info">
+        <h1>Investimento Descomplicado: Seus primeiros passos</h1>
+        <p>Aprenda a construir a base da sua vida financeira e investir com segurança.</p>
+      </div>
+    </div>
+  </header>
+
+  <!-- Barra de progresso -->
+  <div class="progresso-container">
+    <div class="progresso-barra"></div>
+  </div>
+
+  <!-- Navegação -->
+  <nav class="modulos-nav">
+    <button class="modulo-btn ativo" onclick="mostrarModulo(1); salvarProgresso(1, 1)">Módulo 1</button>
+    <button class="modulo-btn" onclick="mostrarModulo(2); salvarProgresso(1, 2)">Módulo 2</button>
+    <button class="modulo-btn" onclick="mostrarModulo(3); salvarProgresso(1, 3)">Módulo 3</button>
+  </nav>
+
+  <!-- Conteúdo -->
+  <main class="conteudo-modulo">
+
+    <!-- Módulo 1 -->
+    <section id="modulo1" class="modulo ativo">
+      <h2>Módulo 1 - A Mentalidade do Investidor</h2>
+      <p>Investir não é privilégio de quem tem muito dinheiro. É um hábito de quem quer fazer o dinheiro trabalhar a
+        favor do tempo.</p>
+      <p>Neste curso, você aprenderá os fundamentos que constroem a base sólida de qualquer investidor: mentalidade,
+        organização financeira, conceitos essenciais e o primeiro passo prático para investir com segurança.</p>
+
+      <article>
+        <h3>1.1 Por que Investir?</h3>
+        <p>O primeiro passo para investir é entender o motivo.</p>
+        <p>Quando o dinheiro fica parado, ele perde valor com o tempo por causa da inflação (o aumento contínuo dos
+          preços). Um produto que hoje custa R$ 100, daqui a um ano pode custar R$ 110, por exemplo. </p>
+        <p>Se o seu dinheiro não cresce na mesma proporção, você perde poder de compra.</p>
+        <p>Investir é o caminho para proteger e aumentar esse poder de compra.</p>
+        <p>O motor desse crescimento é o juros composto, conhecido como a “oitava maravilha do mundo”.</p>
+        <p>Ele funciona assim:</p>
+        <ul>
+          <li>No primeiro mês, você ganha juros sobre o valor investido.</li>
+          <li>No segundo mês, você ganha juros sobre o valor total anterior (capital + juros).</li>
+        </ul>
+        <p>Esse efeito de juros sobre juros multiplica o crescimento ao longo do tempo.</p>
+        <p>Exemplo prático:</p>
+        <p>R$ 1.000 investidos a 10% ao ano por 10 anos viram R$ 2.593,74.</p>
+        <p>Se fosse juros simples, virariam apenas R$ 2.000.</p>
+        <p>O tempo é seu maior aliado, quanto antes começar, melhor.</p>
+      </article>
+
+      <article>
+        <h3>1.2 Organização Financeira</h3>
+        <p>Antes de investir, é preciso organizar as finanças. Sem isso, qualquer investimento se torna um risco.</p>
+        <p><strong>Passo 1: Crie um Orçamento Pessoal/Familiar.</strong></p>
+        <p>Liste suas receitas e despesas fixas (moradia, transporte, alimentação) e variáveis (lazer, compras).</p>
+        <p>O objetivo é descobrir quanto sobra por mês e para onde o dinheiro está indo.</p>
+        <p>Dica: use uma planilha simples ou aplicativos de controle financeiro.</p>
+        <p><strong>Passo 2: Monte sua Reserva de Emergência.</strong></p>
+        <p>A reserva é o colchão de segurança que te impede de precisar resgatar investimentos em momentos ruins.</p>
+        <p>Ela deve cobrir de 3 a 6 meses de despesas essenciais.</p>
+        <p>Exemplo: se você gasta R$ 2.000/mês, sua reserva ideal é entre R$ 6.000 e R$ 12.000.</p>
+        <p>Onde guardar?</p>
+        <ul>
+          <li>Contas remuneradas com liquidez diária;</li>
+          <li>CDBs com FGC e liquidez diária;</li>
+          <li>Tesouro Selic.</li>
+        </ul>
+        <p>O foco aqui é segurança e acesso rápido, não rentabilidade.</p>
+      </article>
+
+      <article>
+        <h3>1.3 Perfil do Investidor</h3>
+        <p>Cada pessoa lida de forma diferente com o risco.Por isso, as corretoras aplicam o teste de perfil do
+          investidor, obrigatório por lei (suitability).</p>
+        <p>Ele ajuda a determinar o tipo de investimento mais adequado para você:</p>
+        <ul>
+          <li>Conservador: prefere segurança e estabilidade, mesmo que o retorno seja menor.</li>
+          <p>Exemplo: Tesouro Direto, CDBs com FGC, fundos DI. (vamos ver mais sobre no próximo módullo).</p>
+          <li>Moderado: aceita algum risco em busca de retorno um pouco maior.</li>
+          <p>Exemplo: fundos multimercado, ações sólidas, fundos imobiliários.</p>
+          <li>Agressivo: tolera oscilações e busca alta rentabilidade a longo prazo.</li>
+          <p>Exemplo: ações, criptomoedas, fundos de alto risco.</p>
+        </ul>
+        <p>📌 Dica: seu perfil pode mudar com o tempo, conforme sua renda, objetivos e conhecimento aumentam.</p>
+      </article>
+
+      <button class="proximo-btn" onclick="proximoModulo(2); salvarProgresso(1, 2)">Próximo módulo ➡️</button>
+    </section>
+
+    <!-- Módulo 2 -->
+    <section id="modulo2" class="modulo">
+      <h2>Módulo 2 - O Alfabeto do Investimento</h2>
+      <p>Agora você vai dominar os principais termos e conceitos do mundo dos investimentos.</p>
+
+      <article>
+        <h3>2.1 - Termos Essenciais</h3>
+        <p>Para entender o mercado financeiro, você precisa falar a “língua” dos investimentos.</p>
+        <p>Aqui estão os conceitos-chave:</p>
+        <ul>
+          <li><strong>Ativo:</strong> tudo que coloca dinheiro no seu bolso (investimentos, aluguéis, dividendos).</li>
+          <li><strong>Passivo:</strong> tudo que tira dinheiro do seu bolso (dívidas, gastos, financiamentos).</li>
+          <li><strong>Rentabilidade:</strong>é o ganho que o investimento gera (percentual de lucro).</li>
+          <li><strong>Liquidez:</strong> é o tempo que leva para transformar o investimento em dinheiro.</li>
+          <li><strong>Risco:</strong> é a probabilidade de perda — quanto maior o retorno, geralmente, maior o risco.
+          </li>
+        </ul>
+        <p>Esses três fatores </p>
+        <ul>
+          <li>Rentabilidade</li>
+          <li>Liquidez</li>
+          <li>Risco</li>
+        </ul>
+        <p>Formam o tripé do investimento.</p>
+        <p>Nenhum investimento é “perfeito” em todos. Você sempre equilibra um em função dos outros.</p>
+        <p>Corretora vs. Banco de Investimento:</p>
+        <p>A corretora é o “meio de campo” entre você e o mercado. Ela executa as ordens e oferece acesso a diversos
+          produtos (Tesouro, ações, fundos, etc).</p>
+        <p>Já o banco de investimento atua de forma mais institucional e com foco em grandes operações.</p>
+        <p>Cotas:</p>
+        <p>Quando você investe em um fundo ou FII, você compra “cotas” — pequenas partes que representam sua
+          participação naquele investimento.</p>
+
+        <h3>2.2 - Tipos de Investidores</h3>
+        <p>Pessoa Física (PF):investidor individual. A tributação é simplificada, e o acesso às corretoras é direto.</p>
+        <p>Pessoa Jurídica (PJ): empresas que investem o capital do negócio. Pode haver benefícios fiscais em certos
+          casos, mas exige contabilidade e estrutura formal.</p>
+        <p>Investidor Qualificado:</p>
+        <p>Quem tem R$ 1 milhão ou mais investidos ou certificação reconhecida pela CVM.</p>
+        <p>Esse status permite acesso a produtos exclusivos (fundos restritos, ofertas privadas, etc).</p>
+        <p>Mas, para quem está começando, não é necessário se preocupar com isso ainda.</p>
+        <h3>2.3 - Tipos de Taxas e Custos</h3>
+        <p>Mesmo em tempos de “corretagem zero”, ainda existem custos que impactam o retorno.</p>
+        <ul>
+          <li><strong>Taxa de Corretagem:</strong> cobrada pela execução de ordens (ações, fundos imobiliários). Muitas
+            corretoras já oferecem 0%.</li>
+          <li><strong>Taxa de Custódia:</strong> era cobrada pela guarda dos ativos na B3. Hoje, praticamente todas as
+            corretoras isentaram.</li>
+          <li><strong>Taxa de Administração:</strong> presente em fundos, é o pagamento pela gestão.</li>
+          <li><strong>Taxa de Performance: </strong> cobrada apenas se o fundo superar o índice de referência.</li>
+        </ul>
+        <p><i>Exemplo:</i></p>
+        <p>Um fundo que rende 12% ao ano, com 2% de taxa de administração, te entrega 10% líquido antes dos impostos.
+        </p>
+        <p>Entender as taxas é essencial para comparar produtos e não perder rentabilidade.</p>
+      </article>
+
+      <button class="proximo-btn" onclick="proximoModulo(3); salvarProgresso(1, 3)">Próximo módulo ➡️</button>
+    </section>
+
+    <!-- Módulo 3 -->
+    <section id="modulo3" class="modulo">
+      <h2>Módulo 3 - Onde e Como Começar na Prática</h2>
+      <p>Chegou a hora de colocar a mão na massa e dar os primeiros passos nos investimentos.</p>
+
+      <article>
+        <h3>3.1 - Abrindo sua Conta e o primeiro passo</h3>
+        <p><strong>Passo 1:</strong> Escolha a corretora.</p>
+        <p>Busque credibilidade, plataforma intuitiva, suporte e ausência de taxas abusivas.</p>
+        <p>Confira se é autorizada pela CVM e pela B3.</p>
+        <p><strong>Passo 2: </strong> Abertura de conta.</p>
+        <p>Processo 100% online - você envia documentos (RG, CPF, comprovante de residência) e responde o questionário
+          de perfil (suitability).</p>
+        <p><strong>Passo 3:</strong> Transferência de dinheiro.</p>
+        <p>Use TED ou PIX sempre da sua conta pessoal para a corretora (nunca envie para terceiros).</p>
+        <p>Assim, o valor cai na sua conta de investimento registrada em seu CPF.</p>
+        <p><strong>Passo 4:</strong> Primeiro investimento - Tesouro Selic.</p>
+        <p>Produto do Tesouro Direto, considerado o investimento mais seguro do Brasil.</p>
+        <ul>
+          <li>Rentabilidade acompanha a taxa Selic (juros básicos da economia).</li>
+          <li>Liquidez diária.</li>
+          <li>Protegido pelo governo federal.</li>
+
+        </ul>
+        <p>É ideal para testar a plataforma, observar o funcionamento e ganhar confiança.</p>
+
+
+      </article>
+
+      <article>
+        <h3>3.2 - Segurança e Garantias</h3>
+        <ul>
+          <li><strong>FGC (Fundo Garantidor de Créditos):</strong> Protege aplicações de até R$ 250 mil por CPF por
+            instituição, com limite total de R$ 1 milhão renovável a cada 4 anos.</li>
+          <p>Aplica-se a CDBs, LCs, LCsIs e poupança.</p>
+          <li><strong>Custódia pela B3: </strong>Significa que seus ativos estão registrados na bolsa brasileira, em seu
+            nome, e não pertencem à corretora.</li>
+          <p>Mesmo que a corretora feche, seus investimentos permanecem seguros.</p>
+        </ul>
+        <p>Cuidado com golpes!</p>
+        <ul>
+          <li>Desconfie de promessas de retornos altos e garantidos.</li>
+          <li>Verifique se a instituição está registrada na CVM.</li>
+          <li>Não envie dinheiro para contas de pessoas físicas.</li>
+          <li>Evite clicar em links de ofertas não oficiais.</li>
+
+        </ul>
+
+      </article>
+      <article>
+        <h3>✅ Conclusão</h3>
+        <p>Depois deste curso, o aluno estará pronto para:</p>
+        <ul>
+          <li>Entender o valor de investir e o impacto da inflação.</li>
+          <li>Organizar suas finanças e criar sua reserva.</li>
+          <li>Conhecer os conceitos e custos básicos.</li>
+          <li>Abrir conta e fazer a primeira aplicação de forma segura.</li>
+        </ul>
+        <p>É a base sólida para seguir nos próximos cursos: Renda Fixa, Fundos e Ações, Diversificação e Estratégia.</p>
+      </article>
+
+      <button class="proximo-btn"
+        onclick="alert('🎉 Parabéns! Você concluiu o Curso 1!'); salvarProgresso(1, 3)">Concluir curso ✅</button>
+    </section>
+
+  </main>
+  <footer class="footer">
+    <p> ©<span id="ano-footer"></span> InveX - Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="/site_investimentos-main/js/cursos-java.js"></script>
+  <script src="/site_investimentos-main/js/curso-principal.js"></script>
+  <script src="/site_investimentos-main/js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,106 @@
+/* (root)*/
+:root {
+  --bg: #0f1724;
+  /* cor de fundo principal da página */
+  --card: #0b1220;
+  /* cor base para cartões e painéis */
+  --accent: #0ea5e9;
+  /* cor de destaque (botões, títulos etc.) */
+  --muted: #94a3b8;
+  /* cor para textos secundários */
+  color-scheme: dark;
+  /* indica que o tema é escuro */
+}
+
+/* 
+   REGRAS GERAIS
+    */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Inter, ui-sans-serif, system-ui, Segoe UI, Roboto, "Helvetica Neue", Arial;
+  background: linear-gradient(180deg, #071021 0%);
+  color: #e6eef6;
+  margin: 0;
+  padding: 24px;
+}
+
+/* centraliza o conteúdo e define uma largura máxima */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* remove margens dos títulos e define cor branca */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  color: #fff;
+}
+
+/* 
+   BOTÕES GERAIS
+    */
+button {
+  background: var(--accent);
+  border: none;
+  padding: 10px 14px;
+  border-radius: 10px;
+  color: #022;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+
+/* efeito de hover para botões */
+button:hover {
+  background: #127ec1;
+}
+
+
+/* texto com cor neutra */
+.muted {
+  color: var(--muted);
+}
+
+/* cartão genérico usado em diversas seções */
+.card {
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(2, 6, 23, 0.6);
+  padding: 18px;
+}
+
+
+.footer {
+
+  width: 100%;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 300px;
+  color: #ccc;
+  font-size: 14px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(12, 1, 70, 0.058);
+  backdrop-filter: blur(4px);
+}
+
+.site-footer .brand {
+  color: #0ea5e9;
+  font-weight: 600;
+}
+
+
+
+.footer p {
+  margin: 0;
+  width: 100%;
+  text-align: center !important;
+  padding-top: 15px;
+}

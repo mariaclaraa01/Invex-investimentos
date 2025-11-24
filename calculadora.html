@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Invex | Calculadora de Juros Compostos(Diários)</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/calculadora.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/home.css">
+  <link rel="stylesheet" href="/site_investimentos-main/css/responsive.css">
+  <link rel="shortcut icon" href="/site_investimentos-main/img/finance-custom.png" type="image/x-icon">
+
+</head>
+
+<body>
+
+
+  <!---CABEÇALHO  -->
+  <header>
+    <!-- Navegação Mobile -->
+    <nav>
+      <div id="menuBotao" class="menu-botao">☰</div>
+      <nav id="menuLateral" class="menu-lateral">
+        <a href="/site_investimentos-main/index.html">Inicio</a></li>
+        <a href="/site_investimentos-main/calculadora.html">Calculadora</a>
+        <a href="/site_investimentos-main/investimentos.html">Investimentos</a>
+        <a href="/site_investimentos-main/cursos.html">Cursos</a>
+        <a href="/site_investimentos-main/index.html#Contatos">Fale com a Invex</a>
+
+      </nav>
+
+      <nav class="lista-nav">
+        <ul class="lista-menu-principal">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="investimentos.html">Investimentos</a></li>
+          <li><a href="/site_investimentos-main/calculadora.html">Calculadora</a></li>
+          <li><a href="cursos.html">Cursos</a></li>
+          <li><a href="/site_investimentos-main/index.html#Contatos">Fale com a Invex</a></li>
+        </ul>
+        <div class="div-pai-logo">
+          <div class="img-logo">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <title>finance</title>
+              <path
+                d="M6,16.5L3,19.44V11H6M11,14.66L9.43,13.32L8,14.64V7H11M16,13L13,16V3H16M18.81,12.81L17,11H22V16L20.21,14.21L13,21.36L9.53,18.34L5.75,22H3L9.47,15.66L13,18.64" />
+            </svg>
+          </div>
+          <div class="logo">
+            <h2>InveX</h2>
+          </div>
+        </div>
+      </nav>
+      <!-- Ticker de Cotações -->
+      <div class="cotacoes-wrapper">
+        <div class="cotacoes-container" id="cotacoes">
+
+        </div>
+      </div>
+
+
+      </div>
+
+
+      </div>
+
+
+  </header>
+  <!-- FIM CABEÇALHO -->
+  <!-- Título principal da página -->
+  <main>
+    <section class="container-tab">
+      <div class="header-title">
+        <svg class="calculadora-img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <title>calculator</title>
+          <path
+            d="M7,2H17A2,2 0 0,1 19,4V20A2,2 0 0,1 17,22H7A2,2 0 0,1 5,20V4A2,2 0 0,1 7,2M7,4V8H17V4H7M7,10V12H9V10H7M11,10V12H13V10H11M15,10V12H17V10H15M7,14V16H9V14H7M11,14V16H13V14H11M15,14V16H17V14H15M7,18V20H9V18H7M11,18V20H13V18H11M15,18V20H17V18H15Z" />
+        </svg>
+        <h1 class="titulo-calculadora">Calculadora de Juros Compostos</h1>
+        <div class="muted"> Com capitalização diária e exibição mensal.</div>
+      </div>
+
+
+      <!--  ÁREA PRINCIPAL / CALCULADORA  -->
+      <div class="card">
+        <div class="grid">
+          <!-- Campos de entrada de dados -->
+          <div>
+            <label>Quantia inicial (R$)</label>
+            <input id="quantiaInicial" type="number" min="0" step="0.01" value="1000" />
+          </div>
+
+          <div>
+            <label>Aporte mensal (R$)</label>
+            <input id="aporteMensal" type="number" min="0" step="0.01" value="100" />
+          </div>
+
+          <div>
+            <label>Taxa anual (%)</label>
+            <input id="taxaAnual" type="number" min="0" step="0.01" value="8" />
+          </div>
+
+          <div>
+            <label>Período (anos)</label>
+            <input id="anos" type="number" min="0" max="200" step="1" value="10" />
+          </div>
+
+
+          <!-- Botões de ação -->
+          <div class="full" style="display:flex;gap:10px;justify-content:flex-end">
+            <button id="botaoCalcular">Calcular</button>
+            <button id="botaoLimpar"
+              style="background:transparent;border:1px solid rgba(255,255,255,0.06);color:inherit">Limpar</button>
+          </div>
+        </div>
+    </section>
+    <!--  RESULTADOS-->
+    <div id="resultado" style="margin-top:14px;display:none">
+      <div class="result">
+        <div>
+          <div class="muted detalhe-cal">Valor final estimado</div>
+          <div class="big" id="valorFinal">R$ 0,00</div>
+        </div>
+
+        <div>
+          <div class="muted detalhe-cal">Total investido</div>
+          <div id="totalInvestido" class="big">R$ 0,00</div>
+        </div>
+
+        <div>
+          <div class="muted detalhe-cal">Juros gerados</div>
+          <div id="jurosGerados" class="big">R$ 0,00</div>
+        </div>
+      </div>
+
+      <!-- Alternar exibição da tabela detalhada -->
+      <div class="tog">
+        <label style="align-self:center">Mostrar tabela mensal</label>
+        <input id="mostrarTabela" type="checkbox" />
+      </div>
+
+      <!-- Tabela gerada dinamicamente via JavaScript -->
+      <div id="areaTabela"></div>
+
+      <!-- Nota explicativa sobre o cálculo -->
+      <div class="note">
+        Observação: os cálculos de juros são de capitalizações diárias e aportes ocorrentes ao fim de cada mês.
+      </div>
+    </div>
+    <!-- ====== FIM RESULTADOS ====== -->
+    </div>
+    <!-- ====== FIM ÁREA PRINCIPAL ====== -->
+    </div>
+
+  </main>
+
+  <footer class="footer">
+    <p> ©<span id="ano-footer"></span> InveX - Todos os direitos reservados.</p>
+  </footer>
+ 
+  <script src="/site_investimentos-main/js/home.js"></script>
+  <script src="/site_investimentos-main/js/main.js"></script>
+  <script src="/site_investimentos-main/js/calculadora.js"></script>
+</body>
+
+</html>

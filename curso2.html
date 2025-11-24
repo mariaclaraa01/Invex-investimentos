@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Invex | Curso 2 - Renda Fixa Sem Segredos: Entendendo Títulos e Rentabilidade</title>
+  <link rel="stylesheet" href="/site_investimentos-main/css/cursos-style.css">
+  <link rel="stylesheet" href="/site_investimentos-main/css/header.css">
+  <link rel="stylesheet" href="/site_investimentos-main/css/responsive.css">
+  <link rel="shortcut icon" href="/site_investimentos-main/img/finance-custom.png" type="image/x-icon">
+</head>
+
+<body onload="carregarProgresso(2)">
+
+  <!-- CABEÇALHO  -->
+  <header>
+    <!-- Navegação Mobile -->
+    <nav>
+      <div id="menuBotao" class="menu-botao">☰</div>
+      <nav id="menuLateral" class="menu-lateral">
+        <a href="/site_investimentos-main/index.html">Inicio</a></li>
+        <a href="/site_investimentos-main/calculadora.html">Calculadora</a>
+        <a href="/site_investimentos-main/investimentos.html">Investimentos</a>
+        <a href="/site_investimentos-main/cursos.html">Cursos</a>
+        <a href="/site_investimentos-main/index.html#Contatos">Fale com a Invex</a>
+
+      </nav>
+
+      <nav class="lista-nav">
+        <ul class="lista-menu-principal">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="investimentos.html">Investimentos</a></li>
+          <li><a href="/site_investimentos-main/calculadora.html">Calculadora</a></li>
+          <li><a href="cursos.html">Cursos</a></li>
+          <li><a href="/site_investimentos-main/index.html#Contatos">Fale com a Invex</a></li>
+
+        </ul>
+        <div class="div-pai-logo">
+          <div class="img-logo">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <title>finance</title>
+              <path
+                d="M6,16.5L3,19.44V11H6M11,14.66L9.43,13.32L8,14.64V7H11M16,13L13,16V3H16M18.81,12.81L17,11H22V16L20.21,14.21L13,21.36L9.53,18.34L5.75,22H3L9.47,15.66L13,18.64" />
+            </svg>
+          </div>
+          <div class="logo">
+            <h2>InveX</h2>
+          </div>
+        </div>
+      </nav>
+
+  </header>
+  <!-- FIM CABEÇALHO -->
+
+  <!-- Hero do curso -->
+  <section class="curso-header">
+    <div class="curso-banner">
+      <img src="/site_investimentos-main/img/Investimento-renda-fixa.jpg" alt="Banner do Renda Fixa Sem Segredos">
+      <div class="overlay"></div>
+
+      <div class="curso-info">
+        <h1>Renda Fixa Sem Segredos: Entendendo Títulos e Rentabilidade</h1>
+        <p>Domine os fundamentos da renda fixa e descubra como fazer seu dinheiro render com segurança, previsibilidade
+          e inteligência.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Barra de progresso -->
+  <div class="progresso-container">
+    <div class="progresso-barra"></div>
+  </div>
+
+  <!-- Navegação -->
+  <nav class="modulos-nav" id="curso2-nav">
+    <button class="modulo-btn ativo" onclick="mostrarModulo(1); salvarProgresso(2, 1)">Módulo 1</button>
+    <button class="modulo-btn" onclick="mostrarModulo(2); salvarProgresso(2, 2)">Módulo 2</button>
+    <button class="modulo-btn" onclick="mostrarModulo(3); salvarProgresso(2, 3)">Módulo 3</button>
+    <button class="modulo-btn" onclick="mostrarModulo(4); salvarProgresso(2, 4)">Módulo 4</button>
+  </nav>
+
+  <!-- Conteúdo -->
+  <main class="conteudo-modulo">
+
+    <!-- Módulo 1 -->
+    <section id="modulo1" class="modulo ativo">
+      <h2>Introdução</h2>
+      <p>A Renda Fixa é o primeiro grande passo dentro do mundo dos investimentos reais.</p>
+      <p>Ela combina segurança, previsibilidade e rentabilidade estável, sendo a base de qualquer carteira equilibrada,
+        especialmente para quem está começando e precisa construir confiança.</p>
+      <p>Ao contrário do que muitos pensam, “renda fixa” não significa ganho fixo, e sim regras fixas de remuneração.
+      </p>
+      <p>Ou seja, no momento da aplicação, você já sabe como e quando vai receber seus rendimentos, o que torna essa
+        classe ideal para reservas, planos e metas financeiras.</p>
+
+      <h2>Módulo 1 - Tipos de Rentabilidade e Risco da Renda Fixa</h2>
+
+      <article>
+        <h3>1.1 - O que é Renda Fixa?</h3>
+        <p>Na prática, investir em Renda Fixa significa emprestar seu dinheiro a alguém,pode ser o governo, um banco ou
+          uma empresa, em troca do pagamento de juros.</p>
+        <p><i>Exemplo prático: </i></p>
+        <ul>
+          <li>Quando você compra um Tesouro Direto, está emprestando dinheiro para o Governo Federal.</li>
+          <li>Quando aplica em um CDB, está emprestando para um banco.</li>
+          <li>Quando investe em uma Debênture, está financiando uma empresa.</li>
+        </ul>
+        <p>Em todos esses casos, você recebe juros acordados, o retorno do seu “empréstimo”.</p>
+        <p>A diferença entre eles está no emissor (quem pega o dinheiro) e no risco envolvido.</p>
+      </article>
+      <article>
+        <h3>1.2 - Os Mecanismos de Rentabilidade</h3>
+        <p>Os títulos de renda fixa podem ser divididos em três tipos de rentabilidade, que definem como o dinheiro vai
+          crescer ao longo do tempo:</p>
+        <ul>
+          <li>Pré-Fixado</li>
+
+          <p>A taxa de juros é definida no momento da aplicação.</p>
+          <p><i>Exemplo:</i> 12% ao ano significa que, se mantiver até o vencimento, você saberá exatamente quanto
+            receberá.</p>
+          <p>Ideal para momentos de juros altos, quando você acredita que as taxas vão cair no futuro.</p>
+          <p>Cuidado: se vender antes do vencimento, pode haver perda (marcação a mercado).</p>
+          <li>Pós-Fixado</li>
+          <p>O rendimento está atrelado a um índice de referência, normalmente o CDI ou a taxa Selic.</p>
+          <p><i>Exemplo:</i> um CDB que paga 100% do CDI renderá exatamente o mesmo que a taxa básica da economia.</p>
+          <p>É a modalidade mais estável e previsível, ideal para reserva de emergência e curto prazo.</p>
+          <li>Híbrido (Indexado à Inflação)</li>
+          <p>Combina uma taxa fixa + a variação da inflação (IPCA).</p>
+          <p><i>Exemplo:</i> IPCA + 5% ao ano significa que o investidor ganha 5% acima da inflação.</p>
+          <p>Perfeito para objetivos de longo prazo, como aposentadoria, compra de imóveis ou proteção de poder de
+            compra.</p>
+          <p>Garante ganho real, independentemente da alta dos preços.</p>
+        </ul>
+
+      </article>
+
+      <article>
+        <h3>1.3 - O Risco na Renda Fixa</h3>
+        <p>Mesmo os investimentos de Renda Fixa possuem riscos, e entender isso é essencial para aplicar com
+          consciência: </p>
+        <ul>
+          <li><strong>Risco de Crédito:</strong> é o risco do emissor não pagar o que deve.</li>
+          <p> → No caso de bancos, é protegido pelo FGC (Fundo Garantidor de Créditos) até R$ 250 mil por CPF e
+            instituição.</p>
+          <li><strong>Risco de Mercado: </strong>ocorre quando a taxa de juros muda e afeta o preço dos títulos
+            (Marcação a Mercado).</li>
+          <p> → Quanto mais longo o prazo, maior a oscilação.</p>
+          <li><strong>Risco de Liquidez:</strong> é a dificuldade de vender o título antes do vencimento.</li>
+          <p> → Alguns papéis têm “carência”, ou seja, não podem ser resgatados antes de determinado tempo.</p>
+        </ul>
+        <p> 💡<strong>Lição prática:</strong> Renda Fixa é segura, mas não é livre de riscos, apenas são riscos
+          previsíveis e controláveis.</p>
+      </article>
+
+      <button class="proximo-btn" onclick="proximoModulo(2); salvarProgresso(1, 2)">Próximo módulo ➡️</button>
+    </section>
+
+    <!-- Módulo 2 -->
+    <section id="modulo2" class="modulo">
+      <h2>Módulo 2 - Títulos Públicos (Tesouro Direto)</h2>
+      <p>O Tesouro Direto é o investimento mais popular e acessível do Brasil.</p>
+      <p>Você empresta dinheiro ao Governo Federal, que usa esses recursos para financiar suas atividades.</p>
+      <p>É considerado o ativo de menor risco de crédito do país.</p>
+      <article>
+        <h3>2.1 Tesouro Selic (Pós-Fixado)</h3>
+        <ul>
+          <li>Rentabilidade acompanha a taxa Selic.</li>
+          <li>Tem alta liquidez e baixa volatilidade</li>
+          <li>Ideal para reserva de emergência e iniciantes.</li>
+        </ul>
+        <p>Mesmo que precise resgatar antes do vencimento, dificilmente há perda, apenas pequenas variações.</p>
+        <p>💡 Dica: é o “porto seguro” de todo investidor iniciante.</p>
+      </article>
+
+      <article>
+        <h3>2.2 - Tesouro Prefixado</h3>
+        <ul>
+          <li>A taxa é definida no momento da compra.</li>
+          <li>Você sabe exatamente quanto receberá se manter até o vencimento.</li>
+          <li>Você sabe exatamente quanto receberá se manter até o vencimento.</li>
+        </ul>
+        <p><strong>Atenção:</strong> se vender antes do prazo e as taxas subirem, o preço do título cai.</p>
+        <p>Essa variação é chamada de Marcação a Mercado.</p>
+        <p><i>Exemplo:</i></p>
+        <p>Se o título paga 10% ao ano e o mercado passa a pagar 12%, o seu título perde valor no curto prazo, mas só
+          importa se você vender antes.</p>
+
+      </article>
+      <article>
+        <h3>2.3 - Tesouro IPCA+ (Híbrido)</h3>
+        <ul>
+          <li>Rentabilidade composta por IPCA + taxa fixa.</li>
+          <li>Garante ganho real acima da inflação.</li>
+          <li>Ideal para metas de longo prazo (aposentadoria, filhos, grandes compras).</li>
+        </ul>
+        <p>💡 Dica: mantenha até o vencimento para evitar perdas com marcação a mercado.</p>
+        <p>É o título que protege seu poder de compra ao longo do tempo.</p>
+      </article>
+
+
+      <button class="proximo-btn" onclick="proximoModulo(3); salvarProgresso(1, 3)">Próximo módulo ➡️</button>
+    </section>
+
+    <!-- Módulo 3 -->
+    <section id="modulo3" class="modulo">
+      <h2>Módulo 3 - Títulos Privados (Bancos e Empresas)</h2>
+
+      <article>
+        <h3>3.1 - Produtos com Garantia do FGC</h3>
+        <p>CDB (Certificado de Depósito Bancário)</p>
+        <ul>
+          <li>Você empresta dinheiro para o banco em troca de juros.</li>
+          <li>Pode ser pré-fixado, pós-fixado (CDI) ou híbrido (IPCA + taxa).</li>
+          <li>Tem cobertura do FGC até R$ 250 mil por CPF e instituição.</li>
+        </ul>
+        <p>LCI e LCA</p>
+        <ul>
+          <li>Letras de Crédito Imobiliário (LCI) e do Agronegócio (LCA).</li>
+          <li>Isentas de Imposto de Renda para pessoa física.</li>
+          <li>Também contam com proteção do FGC.</li>
+          <li>Normalmente rendimentos menores, mas líquidos (sem IR)</li>
+        </ul>
+        <p>💡 Dica: ótimas opções para diversificar sua reserva e otimizar rendimentos líquidos.</p>
+
+      </article>
+
+      <article>
+        <h3>3.2 - Produtos Sem Garantia do FGC</h3>
+        <p>Esses produtos têm maior risco, pois não contam com a cobertura do FGC, mas oferecem rentabilidade superior.
+        </p>
+        <p>Debêntures</p>
+        <p>Empréstimos a empresas privadas.</p>
+        <p>Podem ter rentabilidade pré, pós ou híbrida, e prazo longo.</p>
+        <p>São indicadas para investidores moderados ou agressivos.</p>
+        <p>Algumas debêntures incentivadas têm isenção de IR.</p>
+        <p>CRI e CRA</p>
+        <ul>
+          <li>Certificados de Recebíveis Imobiliários (CRI) e do Agronegócio (CRA).</li>
+          <li>Representam “fatias” de dívidas ligadas a esses setores.</li>
+          <li>Também isentos de IR, porém com maior risco de crédito e liquidez menor.</li>
+
+        </ul>
+        <p>💡 Essencial: produtos sem FGC exigem análise do emissor e rating de crédito.</p>
+      </article>
+      <button class="proximo-btn" onclick="proximoModulo(4); salvarProgresso(1, 4)">Próximo módulo ➡️</button>
+    </section>
+    <!-- Módulo 4 -->
+    <section id="modulo4" class="modulo">
+      <article>
+        <h3>Módulo 4 - Imposto de Renda e Escolha Prática.</h3>
+        <h3>4.1 - A Tabela Regressiva do Imposto de Renda</h3>
+        <p>Nos investimentos tributáveis, o IR só incide sobre o lucro (rendimentos), e quanto maior o prazo, menor a
+          alíquota.</p>
+        <p>Observe na tabela a seguir</p>
+
+        <table class="tabela-invest">
+          <thead>
+            <tr>
+              <th>Prazo de Aplicação</th>
+              <th>Alíquota de IR</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Até 180 dias</td>
+              <td>22,5%</td>
+            </tr>
+            <tr>
+              <td>181 a 360 dias</td>
+              <td>20%</td>
+            </tr>
+            <tr>
+              <td>361 a 720 dias</td>
+              <td>17,5%</td>
+            </tr>
+            <tr>
+              <td>Acima de 720 dias</td>
+              <td>15%</td>
+            </tr>
+          </tbody>
+        </table>
+        <p>💡 Dica: investir por mais tempo reduz a mordida do leão, aproveite isso em estratégias de longo prazo.</p>
+      </article>
+      <article>
+        <h3>4.2 - O Fator Tempo e a Melhor Escolha</h3>
+        <p>A escolha do título ideal depende do seu objetivo e horizonte de tempo.</p>
+        <ul>
+          <li><strong>Curto Prazo:</strong> priorize liquidez e segurança.</li>
+          <p>→ Tesouro Selic, CDB D+0, LCI/LCA curtas.</p>
+          <li><strong>Médio Prazo: </strong>busque equilíbrio entre retorno e estabilidade. </li>
+          <p>→ CDBs pós-fixados ou híbridos.</p>
+          <li><strong>Longo Prazo:</strong> foque em ganhos reais acima da inflação.</li>
+          <p> → Tesouro IPCA+, LCI/LCA longas, Debêntures incentivadas.</p>
+        </ul>
+        <p>Cálculo de Equivalência</p>
+        <p>Para comparar investimentos isentos (LCI/LCA) e tributados (CDB), use a fórmula:</p>
+        <li>Taxa líquida = Taxa bruta × (1 - IR)</li>
+        <p><i>Exemplo:</i></p>
+        <p>Um CDB de 110% do CDI (com IR de 15%) equivale a cerca de 93,5% do CDI líquido.</p>
+        <p>Se uma LCI paga 95% do CDI, ela é mais vantajosa.</p>
+      </article>
+      <article>
+        <h3>✅ Conclusão</h3>
+        <p>Ao final deste curso, o aluno compreenderá:</p>
+        <ul>
+          <li>Como funcionam os principais títulos de Renda Fixa.</li>
+          <li>Os tipos de rentabilidade e seus riscos.</li>
+          <li>A diferença entre títulos públicos e privados.</li>
+          <li>O impacto do imposto e do tempo sobre o retorno.</li>
+          <li>E como escolher o produto ideal conforme seus objetivos.</li>
+        </ul>
+        <p>A Renda Fixa é o coração da segurança financeira.</p>
+        <p>Dominar esse tema é construir a base sólida para os próximos níveis, onde entraremos em Fundos, Ações e
+          Diversificação Estratégica.</p>
+
+      </article>
+
+      <button class="proximo-btn"
+        onclick="alert('🎉 Parabéns! Você concluiu o Curso 2!'); salvarProgresso(1, 4)">Concluir curso ✅</button>
+
+    </section>
+  </main>
+  <footer class="footer">
+    <p> ©<span id="ano-footer"></span> InveX - Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="/site_investimentos-main/js/cursos-java.js"></script>
+  <script src="/site_investimentos-main/js/home.js"></script>
+  <script src="/site_investimentos-main/js/main.js"></script>
+</body>
+
+</html>
