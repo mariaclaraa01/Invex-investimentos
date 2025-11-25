@@ -8,8 +8,7 @@
   /* cor de destaque (botões, títulos etc.) */
   --muted: #94a3b8;
   /* cor para textos secundários */
-  color-scheme: dark;
-  /* indica que o tema é escuro */
+  
 }
 
 /* 
@@ -22,7 +21,7 @@
 
 body {
   font-family: Inter, ui-sans-serif, system-ui, Segoe UI, Roboto, "Helvetica Neue", Arial;
-  background: linear-gradient(180deg, #071021f0 0%) !important;
+  background: linear-gradient(180deg, #000f26 0%) !important;
   color: #e6eef6;
   margin: 0;
   padding: 24px;
