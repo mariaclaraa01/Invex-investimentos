@@ -1,0 +1,15 @@
+@media (max-width: 480px) { 
+  .img-logo {
+  position: relative;
+  fill: #0ea5e9;
+  top: 56px !important;
+}
+}
+
+@media (max-width: 1300px) { 
+  .img-logo {
+  position: relative;
+  fill: #0ea5e9;
+  top: 56px !important;
+}
+}

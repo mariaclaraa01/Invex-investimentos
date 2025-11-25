@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="css/header.css">
   <link rel="stylesheet" href="css/home.css">
   <link rel="stylesheet" href="css/investimentos.css">
+  <link rel="stylesheet" href="css/responsive.css">
   <link rel="shortcut icon" href="img/finance-custom.png" type="image/x-icon">
 
 </head>
@@ -20,7 +21,7 @@
   <!---CABEÇALHO  -->
   <header>
     <!-- Navegação Mobile -->
-    <nav>
+
       <div id="menuBotao" class="menu-botao">☰</div>
       <nav id="menuLateral" class="menu-lateral">
         <a href="index.html">Inicio</a></li>
@@ -78,12 +79,12 @@
             d="M7,2H17A2,2 0 0,1 19,4V20A2,2 0 0,1 17,22H7A2,2 0 0,1 5,20V4A2,2 0 0,1 7,2M7,4V8H17V4H7M7,10V12H9V10H7M11,10V12H13V10H11M15,10V12H17V10H15M7,14V16H9V14H7M11,14V16H13V14H11M15,14V16H17V14H15M7,18V20H9V18H7M11,18V20H13V18H11M15,18V20H17V18H15Z" />
         </svg>
         <h1 class="titulo-calculadora">Calculadora de Juros Compostos</h1>
-        <div class="muted"> Com capitalização diária e exibição mensal.</div>
+        <div class="muted p-calculadora"> Com capitalização diária e exibição mensal.</div>
       </div>
 
 
       <!--  ÁREA PRINCIPAL / CALCULADORA  -->
-      <div class="card">
+      <div class="card calculadora-prin">
         <div class="grid">
           <!-- Campos de entrada de dados -->
           <div>
@@ -117,7 +118,7 @@
     </section>
     <!--  RESULTADOS-->
     <div id="resultado" style="margin-top:14px;display:none">
-      <div class="result">
+      <div class="result result-cal">
         <div>
           <div class="muted detalhe-cal">Valor final estimado</div>
           <div class="big" id="valorFinal">R$ 0,00</div>
@@ -148,9 +149,9 @@
         Observação: os cálculos de juros são de capitalizações diárias e aportes ocorrentes ao fim de cada mês.
       </div>
     </div>
-   
+
     </div>
- 
+
     </div>
 
   </main>
@@ -158,7 +159,7 @@
   <footer class="footer">
     <p> ©<span id="ano-footer"></span> InveX - Todos os direitos reservados.</p>
   </footer>
- 
+
   <script src="js/home.js"></script>
   <script src="js/main.js"></script>
   <script src="js/calculadora.js"></script>

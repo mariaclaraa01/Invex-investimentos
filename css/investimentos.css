@@ -25,15 +25,14 @@ main {
 
 .muted {
   position: relative;
-  margin-top: 9px;
-  right: 68px;
+  right: 67px;
+  width: 400px;
 }
 
 .titulo-principal {
   position: absolute !important;
   top: 5px !important;
-  left: 150px !important;
-  width: 450px !important;
+  left: 130px !important;
   margin: 0;
 }
 
@@ -43,10 +42,11 @@ main {
   font-weight: 700;
   position: relative;
   right: 70px;
+  width: 350px;
 }
 
 
-.img-title {
+.img-title-inves {
   position: relative;
   top: 50px;
   right: 15px;
@@ -100,6 +100,10 @@ main {
 }
 
 /*  CARTÕES DE AÇÕES RECOMENDADAS  */
+.card-investimentos{
+  margin-top:2%;
+}
+
 .acao-card {
   position: relative;
   display: flex;

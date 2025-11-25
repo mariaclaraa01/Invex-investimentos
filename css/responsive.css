@@ -4,9 +4,11 @@
 @media (max-width: 1024px) {
     .titulo-calculadora {
         left: 2px;
-        width: 100%;
-        font-size: 25px;
+        font-size: 22px;
+    }
 
+    .container-tab {
+        margin: 0;
     }
 
     .menu-lateral,
@@ -214,14 +216,14 @@
         font-size: 20px;
     }
 
-
     .titulo-principal p {
         font-size: 16px;
     }
 
     .botao-principal {
         width: 90%;
-        font-size: 20px;
+        font-size: 18px;
+        padding: 10px;
     }
 
     .div-pai-cards h2,
@@ -230,7 +232,7 @@
         font-size: 30px;
     }
 
-    /* formulário */
+
     .formulario-contato {
         width: 90%;
         padding: 20px;
@@ -239,6 +241,130 @@
     .sobre-nos {
         margin-bottom: 30%;
     }
+
+    .p-calculadora {
+        position: relative;
+        font-size: 10px;
+        width: 200px; 
+    }
+
+    .titulo-calculadora{
+        width: 200px !important;
+        font-size: 20px;
+        
+    }
+
+
+    .calculadora-img {
+        width: 80px;
+    }
+
+   .result-cal {
+        align-items: left;
+    }
+    .detalhe-cal{
+        width: 200px;    
+    }
+
+    #areaTabela {
+        border-radius: 8px;
+        padding: 10px;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    th,
+    td {
+        padding: 8px;
+    }
+
+    th {
+        font-size: 12px;
+    }
+
+    .container-sobrenos {
+        display: flex;
+        flex-direction: column;
+        max-width: 1100px;
+        gap: 0;
+    }
+
+    .img-sessao-sobrenos {
+        flex: 1;
+        max-width: 300px;
+
+    }
+
+    .img-sessao-sobrenos img {
+        width: 100%;
+        height: 100%;
+        border-radius: 13pxx
+
+    }
+
+    .titulo-sobrenos {
+        text-align: left;
+        padding: 30px;
+        font-size: 10px;
+        max-width: 260px;
+
+    }
+
+    .cartoes-ferramentas {
+        width: 65%;
+        margin-top: 10%;
+        padding: 10px;
+
+    }
+
+
+    .card-1,
+    .card-2,
+    .card-3 {
+
+        font-size: 12px;
+        margin-top: 35px;
+    }
+
+    .div-pai-cards h2 {
+        font-size: 25px;
+        margin-top: 300px;
+        
+    }
+
+    .card-ferramentas {
+        width: 70% !important;
+    }
+
+   
+
+    .titulo-principal-investi {
+        font-size: 20px !important;
+        right: 150px !important;
+        top: 5px !important;
+    }
+
+
+    .titulo-investimento {
+        width: 260px;
+        right: 82px;
+        top: 10px;
+        font-size: 10px;
+    }
+
+    .img-title-inves {
+        top: 50px;
+        right: 20px !important;
+
+    }
+
+    .curso-info h1{
+        font-size: 20px !important;
+    }
+
 
 }
 
@@ -262,7 +388,6 @@
     .div-pai-cards {
         margin-top: 240px;
     }
-
 
 
 }

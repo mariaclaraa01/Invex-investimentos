@@ -1,4 +1,4 @@
-/* Container principal — centraliza e limita a largura */
+
 
 main {
   max-width: 900px;
@@ -47,13 +47,17 @@ h1 {
 
 }
 
+.p-calculadora{
+  position: relative;
+  top: 100px;
+}
+
 .muted {
   font-size: 15px;
   color: rgba(255, 255, 255, 0.6);
-  margin-bottom: 25px;
   position: relative;
   left: 58px;
-  margin-top: 10px;
+  bottom: 10px;
 }
 
 .detalhe-cal {
