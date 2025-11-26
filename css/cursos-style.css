@@ -518,6 +518,7 @@ li {
 .img-logo {
   position: relative;
   fill: #0ea5e9;
+  top: 40px !important;
   
 }
 

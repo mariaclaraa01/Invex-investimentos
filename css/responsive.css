@@ -331,7 +331,9 @@
 
     .div-pai-cards h2 {
         font-size: 25px;
-        margin-top: 300px;
+        margin-top: 340px;
+        padding: 10px;
+    
         
     }
 
@@ -365,6 +367,21 @@
         font-size: 20px !important;
     }
 
+
+    #curso2-nav .modulo-btn{
+        padding: 5px;
+    }
+
+    .card-trilha-invex {
+        margin: 5%;
+
+        
+    }
+
+    .card-trilha-invex .cursos-grid {
+        position: relative;
+        right: 20%;
+    }
 
 }
 

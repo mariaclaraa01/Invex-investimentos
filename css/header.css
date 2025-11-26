@@ -120,7 +120,7 @@ nav {
   position: fixed;
   top: 20px;
   right: 20px;
-  background: transparent;
+  color: #0ea5e9;
   border: none;
   cursor: pointer;
   z-index: 1000;
@@ -131,9 +131,10 @@ nav {
 #menuBotao div {
   width: 28px;
   height: 3px;
-  background-color: var(--accent);
+  background-color: #0ea5e9;
   margin: 5px 0;
   transition: 0.3s;
+  
 
 }
 
