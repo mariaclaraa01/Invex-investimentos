@@ -1,15 +1,37 @@
-@media (max-width: 480px) { 
+@media (max-width: 2000px) { 
   .img-logo {
   position: relative;
   fill: #0ea5e9;
-  top: 56px !important;
+  top: 10px !important;
+  
 }
 }
+
+@media (max-width: 1800px) { 
+  .img-logo {
+  position: relative;
+  fill: #0ea5e9;
+  top: 10px !important;
+ 
+  
+}
+
 
 @media (max-width: 1300px) { 
   .img-logo {
   position: relative;
   fill: #0ea5e9;
   top: 56px !important;
+ 
+}
+}
+
+
+}
+@media (max-width: 480px) { 
+  .img-logo {
+  position: relative;
+  fill: #0ea5e9;
+  top: 60px !important;
 }
 }

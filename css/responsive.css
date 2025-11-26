@@ -25,7 +25,6 @@
     .img-logo {
         display: inline-block;
         width: 60px;
-        fill: #0ea5e9;
         position: relative;
         left: 5px;
     }
@@ -153,9 +152,6 @@
 
 
 
-/* 
-   RESPONSIVE — 768px (tablet)
- */
 @media (max-width: 768px) {
 
     /* Seção principal */
@@ -189,7 +185,6 @@
     .img-logo {
         display: inline-block;
         width: 60px;
-        fill: #0ea5e9;
         position: relative;
         left: 5px;
     }

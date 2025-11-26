@@ -1,0 +1,30 @@
+@media (max-width: 2000px) {
+    .img-logo {
+        position: relative;
+        top: 10px !important;
+    }
+}
+
+@media (max-width: 1500px) {
+    .img-logo {
+        position: relative;
+        top: 30px !important;
+    }
+}
+
+@media (max-width: 1300px) {
+    .img-logo {
+        position: relative;
+        top: 56px !important;
+
+    }
+}
+
+
+
+@media (max-width: 480px) {
+    .img-logo {
+        position: relative;
+        top: 40px !important;
+    }
+}
